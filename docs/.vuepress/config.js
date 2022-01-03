@@ -1,7 +1,7 @@
 module.exports = {
   title: 'fcd\'s web Lib',
   description: 'fcd\'s blog',
-  base: 'web-lib',
+  base: '/web-lib/',
   theme: 'reco',
   locales: {
     '/': {
