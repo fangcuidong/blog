@@ -25,17 +25,21 @@ module.exports = {
         title: '前端自学路径',
         path: '/',
         collapsable: false, // 不折叠
-        // children: [
-        //   { title: "前端自学路径", path: "/" }
-        // ]
       },
       {
-        title: "HTML",
+        title: 'HTML',
         path: '/html/',
-        collapsable: false, // 不折叠
+        collapsable: false,
         children: [
-          { title: "HTML5语义化", path: "/html/HTML5语义化" },
-          { title: "js设计模式", path: "/html/js设计模式" }
+          { title: 'HTML5语义化', path: '/html/HTML5语义化' }
+        ],
+      },
+      {
+        title: 'CSS',
+        path: '/css/',
+        collapsable: false,
+        children: [
+          { title: 'CSS常见面试题', path: '/css/CSS常见面试题' },
         ],
       }
     ]
@@ -43,10 +47,10 @@ module.exports = {
   plugins: [
     // 支持中文文件名
     [
-      "permalink-pinyin",
+      'permalink-pinyin',
       {
         lowercase: true, // Converted into lowercase, default: true
-        separator: "-", // Separator of the slug, default: '-'
+        separator: '-', // Separator of the slug, default: '-'
       },
     ],
   ]
