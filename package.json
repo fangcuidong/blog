@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "clear": "rmdir /s/q \"./docs/.vuepress/dist\""
   },
   "devDependencies": {
     "vuepress": "^1.9.5",
