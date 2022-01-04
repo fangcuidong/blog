@@ -37,9 +37,11 @@ module.exports = {
       {
         title: 'CSS',
         path: '/css/',
-        collapsable: false,
+        collapsable: true,
         children: [
           { title: 'CSS常见面试题', path: '/css/CSS常见面试题' },
+          { title: 'flex布局', path: '/css/flex布局' },
+          { title: 'grid布局', path: '/css/grid布局' },
         ],
       }
     ]
