@@ -8,7 +8,7 @@ date: '2022-01-07'
 [原文链接 - 神三元-day012:什么是BFC？什么条件下会触发？渲染规则？应用场景有哪些](https://blog.csdn.net/weixin_42098339)
 
 ## 1.什么是BFC？
->W3C对BFC的定义如下： 浮动元素和绝对定位元素，非块级盒子的块级容器（例如 inline-blocks, table-cells, 和 table-captions），以及overflow值不为"visiable"的块级盒子，都会为他们的内容创建新的BFC（Block Fromatting Context， 即块级格式上下文）。
+> W3C对BFC的定义如下： 浮动元素和绝对定位元素，非块级盒子的块级容器（例如 inline-blocks, table-cells, 和 table-captions），以及overflow值不为"visiable"的块级盒子，都会为他们的内容创建新的BFC（Block Fromatting Context， 即块级格式上下文）。
 
 2.触发条件
 
