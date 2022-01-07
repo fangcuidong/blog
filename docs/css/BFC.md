@@ -1,5 +1,5 @@
 ---
-title: 什么是BFC？什么条件下会触发？渲染规则？应用场景有哪些？
+title: BFC
 author: fcd
 date: '2022-01-07'
 ---
