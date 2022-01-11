@@ -66,7 +66,21 @@ module.exports = {
           return moment(timestamp).fromNow();
         }
       }
+    ],
+  ],
+  head: [
+    [
+      // 访问统计
+      'script', {},
+      `
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?84ac11f5508e341c55b40f45c7b2cbec";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      `
     ]
   ]
-
 }
