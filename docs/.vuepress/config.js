@@ -9,6 +9,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    lastUpdated: '上次更新',
     subSidebar: 'auto',
     nav: [
       { text: '首页', link: '/' },
@@ -54,6 +55,18 @@ module.exports = {
         separator: '-', // Separator of the slug, default: '-'
       },
     ],
+    // 最后更新时间
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          // moment : JavaScript 日期处理类库 http://momentjs.cn/
+          const moment = require('moment');
+          moment.locale(lang);
+          return moment(timestamp).fromNow();
+        }
+      }
+    ]
   ]
 
 }
