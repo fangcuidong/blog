@@ -1,3 +1,9 @@
+---
+title: 常见面试题
+author: fcd
+date: '2024-04-11'
+---
+
 # vue相关
 
 ## vue2和vue3的区别有哪些？
