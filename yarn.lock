@@ -1395,50 +1395,36 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/composition-api@1.0.0-beta.21":
-  version "1.0.0-beta.21"
-  resolved "https://registry.npmmirror.com/@vue/composition-api/download/@vue/composition-api-1.0.0-beta.21.tgz#d5a3c68afc8b569dfc3eccd69998388bb7f6a16c"
-  integrity sha1-1aPGivyLVp38PszWmZg4i7f2oWw=
+"@vuepress-reco/core@^1.6.14-beta.0":
+  version "1.6.14-beta.0"
+  resolved "https://r.cnpmjs.org/@vuepress-reco/core/-/core-1.6.14-beta.0.tgz#d7bba44b20c76c9a978aee4f428e906854dda10e"
+  integrity sha512-JQDCpwcubIcVkjfAaZS61QDFnjS3ID13Iq9Xg9uyGbgxbPL3oXXpARcGaYSKoLZLofH4jO8170BlkbhAUgU1Fw==
   dependencies:
-    tslib "^2.0.1"
-
-"@vuepress-reco/core@^1.6.9":
-  version "1.6.9"
-  resolved "https://registry.npmmirror.com/@vuepress-reco/core/download/@vuepress-reco/core-1.6.9.tgz#2bec013dfe11f712dedd06683981ddc4d5a977e7"
-  integrity sha512-R+PvVvJ2efPwDboTLW/l1Gabl3UsfmuuO+MhbnUtFn1LrxCM3UfCSCeIdIijLR03UoLwkEQc3Ei94gBV5srAeg==
-  dependencies:
-    "@vue/composition-api" "1.0.0-beta.21"
     vue "^2.6.12"
-    vue-demi "^0.5.3"
     vue-property-decorator "^9.1.2"
 
-"@vuepress-reco/vuepress-plugin-back-to-top@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.6.0.tgz#16cf1a6844f156c11d5135c646270c6734263eb6"
-  integrity sha1-Fs8aaETxVsEdUTXGRicMZzQmPrY=
+"@vuepress-reco/vuepress-plugin-back-to-top@^1.6.13":
+  version "1.6.13"
+  resolved "https://r.cnpmjs.org/@vuepress-reco/vuepress-plugin-back-to-top/-/vuepress-plugin-back-to-top-1.6.13.tgz#dfc31ed7354a9839fd7781532b0ea5722ad73fc0"
+  integrity sha512-4KPllVU1ruD4SANuZ0wNQJwpcSctKJmWD4XhdAXOuoNc2kRzM4ic/xnWZ9YJuTlae94w4ocnmm3bZafWuewqRw==
 
-"@vuepress-reco/vuepress-plugin-comments@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-1.6.0.tgz#df9fb43ce032d429b4c6defcaef461420593f69f"
-  integrity sha1-35+0POAy1Cm0xt78rvRhQgWT9p8=
+"@vuepress-reco/vuepress-plugin-comments@^1.6.13":
+  version "1.6.13"
+  resolved "https://r.cnpmjs.org/@vuepress-reco/vuepress-plugin-comments/-/vuepress-plugin-comments-1.6.13.tgz#71d3291a3cc79085981beb42ac22cfa5191fc5d4"
+  integrity sha512-KunbkxcMxYxelpVyN3FBcnVPXPifqlpctQHUllZk4As9q/PJALCvuJWZ0MWsM5CIdrUL9DBrGmSUW4amfOiUAw==
   dependencies:
     "@vssue/api-bitbucket-v2" "^1.1.1"
     "@vssue/api-gitee-v5" "^1.4.4"
     "@vssue/api-github-v3" "^1.4.4"
     "@vssue/api-github-v4" "^1.2.0"
     "@vssue/api-gitlab-v4" "^1.1.1"
-    valine "^1.4.14"
+    valine "^1.4.18"
     vssue "^1.4.6"
 
-"@vuepress-reco/vuepress-plugin-loading-page@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-loading-page/download/@vuepress-reco/vuepress-plugin-loading-page-1.6.0.tgz#34b72ed342dc9b15021d077ff8faeafe52146159"
-  integrity sha1-NLcu00LcmxUCHQd/+Prq/lIUYVk=
-
-"@vuepress-reco/vuepress-plugin-pagation@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-pagation/download/@vuepress-reco/vuepress-plugin-pagation-1.6.0.tgz#c632aae1638ff9c67fe58c39ab617132be9eeecb"
-  integrity sha1-xjKq4WOP+cZ/5Yw5q2FxMr6e7ss=
+"@vuepress-reco/vuepress-plugin-pagation@^1.6.17":
+  version "1.6.17"
+  resolved "https://r.cnpmjs.org/@vuepress-reco/vuepress-plugin-pagation/-/vuepress-plugin-pagation-1.6.17.tgz#8882c72b93f9636af6bf98655537a037b581a81b"
+  integrity sha512-JL5ThROczUYc1P54SnZ7E1TG8rnOBIdDHlzPRHbgAhxatPb3dKp/s8QUpmR0YSpXnA5hJJS6LZFM1UAPsU6t+w==
 
 "@vuepress/core@1.9.5":
   version "1.9.5"
@@ -2056,6 +2042,11 @@ autoprefixer@^9.5.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
+autosize@^4.0.2:
+  version "4.0.4"
+  resolved "https://r2.cnpmjs.org/autosize/-/autosize-4.0.4.tgz#924f13853a466b633b9309330833936d8bccce03"
+  integrity sha512-5yxLQ22O0fCRGoxGfeLSNt3J8LB1v+umtpMnPW6XjkTWXKoN0AmXAIhelJcDtFT/Y/wYWmfE+oqU10Q0b8FhaQ==
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.npm.taobao.org/aws-sign2/download/aws-sign2-0.7.0.tgz?cache=0&sync_timestamp=1589682812085&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws-sign2%2Fdownload%2Faws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -2195,6 +2186,11 @@ bluebird@^3.1.1, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.npm.taobao.org/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
+
+blueimp-md5@^2.8.0:
+  version "2.19.0"
+  resolved "https://r2.cnpmjs.org/blueimp-md5/-/blueimp-md5-2.19.0.tgz#b53feea5498dcb53dc6ec4b823adb84b729c4af0"
+  integrity sha512-DRQrD6gJyy8FbiE4s+bDoXS9hiW3Vbx5uCdwvcCf3zLHL+Iv7LtGHLpr+GZV8rHG8tK766FGYBwRbu8pELTt+w==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
   version "4.12.0"
@@ -2591,6 +2587,21 @@ charenc@0.0.2, charenc@~0.0.1:
   resolved "https://registry.npm.taobao.org/charenc/download/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
   integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
 
+"chokidar@>=3.0.0 <4.0.0":
+  version "3.6.0"
+  resolved "https://r.cnpmjs.org/chokidar/-/chokidar-3.6.0.tgz#197c6cc669ef2a8dc5e7b4d97ee4e092c3eb0d5b"
+  integrity sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==
+  dependencies:
+    anymatch "~3.1.2"
+    braces "~3.0.2"
+    glob-parent "~5.1.2"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.6.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
 chokidar@^2.0.3, chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.npmmirror.com/chokidar/download/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -2797,6 +2808,11 @@ commander@~2.19.0:
   version "2.19.0"
   resolved "https://registry.npmmirror.com/commander/download/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
+
+comment-regex@^1.0.0:
+  version "1.0.1"
+  resolved "https://r2.cnpmjs.org/comment-regex/-/comment-regex-1.0.1.tgz#e070d2c4db33231955d0979d27c918fcb6f93565"
+  integrity sha512-IWlN//Yfby92tOIje7J18HkNmWRR7JESA/BK8W7wqY/akITpU5B0JQWnbTjCfdChSrDNb0DrdA9jfAxiiBXyiQ==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -4477,6 +4493,13 @@ gray-matter@^4.0.1:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+hanabi@^0.4.0:
+  version "0.4.0"
+  resolved "https://r2.cnpmjs.org/hanabi/-/hanabi-0.4.0.tgz#ebbb251358c1337db1eabda686c43ff777d30d82"
+  integrity sha512-ixJH94fwmmVzUSdxl7TMkVZJmsq4d2JKrxedpM5V1V+91iVHL0q6NnJi4xiDahK6Vo00xT17H8H6b4F6RVbsOg==
+  dependencies:
+    comment-regex "^1.0.0"
+
 handle-thing@^2.0.0:
   version "2.0.1"
   resolved "https://registry.nlark.com/handle-thing/download/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
@@ -4812,6 +4835,11 @@ immediate@^3.2.3:
   version "3.3.0"
   resolved "https://registry.npm.taobao.org/immediate/download/immediate-3.3.0.tgz?cache=0&sync_timestamp=1591712625500&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fimmediate%2Fdownload%2Fimmediate-3.3.0.tgz#1aef225517836bcdf7f2a2de2600c79ff0269266"
   integrity sha1-Gu8iVReDa8338qLeJgDHn/AmkmY=
+
+immutable@^4.0.0:
+  version "4.3.5"
+  resolved "https://r.cnpmjs.org/immutable/-/immutable-4.3.5.tgz#f8b436e66d59f99760dc577f5c99a4fd2a5cc5a0"
+  integrity sha512-8eabxkth9gZatlwl5TBuJnCsoTADlL6ftEr7A4qgdaTsPyreilDSnUk57SO+jfKcNtxPa22U5KK6DSeAYhpBJw==
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -5790,6 +5818,11 @@ markdown-it@^8.4.1:
     linkify-it "^2.0.0"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
+
+marked@^4.0.8:
+  version "4.3.0"
+  resolved "https://r.cnpmjs.org/marked/-/marked-4.3.0.tgz#796362821b019f734054582038b116481b456cf3"
+  integrity sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -7498,6 +7531,15 @@ safe-regex@^1.1.0:
   resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
+sass@^1.49.9:
+  version "1.74.1"
+  resolved "https://r.cnpmjs.org/sass/-/sass-1.74.1.tgz#686fc227d3707dd25cb2925e1db8e4562be29319"
+  integrity sha512-w0Z9p/rWZWelb88ISOLyvqTWGmtmu2QJICqDBGyNnfG4OUnPX9BBjjYIXUpXCMOOg5MQWNpqzt876la1fsTvUA==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.npm.taobao.org/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -7784,6 +7826,11 @@ source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
+
+"source-map-js@>=0.6.2 <2.0.0":
+  version "1.2.0"
+  resolved "https://r.cnpmjs.org/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
+  integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
 
 source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
   version "0.5.3"
@@ -8341,11 +8388,6 @@ transliteration@^2.1.2:
   dependencies:
     yargs "^16.1.0"
 
-tslib@^2.0.1:
-  version "2.3.1"
-  resolved "https://registry.nlark.com/tslib/download/tslib-2.3.1.tgz?cache=0&sync_timestamp=1628722556410&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
-  integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
-
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.nlark.com/tty-browserify/download/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
@@ -8643,16 +8685,21 @@ uuid@^8.3.2:
   resolved "https://registry.npmmirror.com/uuid/download/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-valine@^1.4.14:
-  version "1.4.16"
-  resolved "https://registry.npmmirror.com/valine/download/valine-1.4.16.tgz?cache=0&sync_timestamp=1634638736443&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fvaline%2Fdownload%2Fvaline-1.4.16.tgz#6b077734c94d75cb6b1cbfb88e9e634000c1bfef"
-  integrity sha1-awd3NMlNdctrHL+4jp5jQADBv+8=
+valine@^1.4.18:
+  version "1.5.1"
+  resolved "https://r.cnpmjs.org/valine/-/valine-1.5.1.tgz#cb7aa97c07588646e7cd1494bd1a4d09093931c3"
+  integrity sha512-uT9tHuoKkFUqqVHHRyz4EPe8U+h1ZkCa2lVKH8SKZM9r1Whm8DZW9GfrK4USmLJ+QwpHWenPIKOH0s2xO0BVbQ==
   dependencies:
+    autosize "^4.0.2"
     balajs "^1.0.7"
     balalaika "^1.0.1"
+    blueimp-md5 "^2.8.0"
     element-closest "^3.0.2"
+    hanabi "^0.4.0"
     insane "^2.6.2"
     leancloud-storage "^3.0.4"
+    marked "^4.0.8"
+    sass "^1.49.9"
     storejs "^1.0.25"
     xss "^1.0.6"
 
@@ -8700,11 +8747,6 @@ vue-click-outside@1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/vue-click-outside/download/vue-click-outside-1.1.0.tgz#48b7680b518923e701643cccb3e165854aad99eb"
   integrity sha1-SLdoC1GJI+cBZDzMs+FlhUqtmes=
-
-vue-demi@^0.5.3:
-  version "0.5.4"
-  resolved "https://registry.npmmirror.com/vue-demi/download/vue-demi-0.5.4.tgz#cedb887af819ff0126c545a5540170d8895b816d"
-  integrity sha1-ztuIevgZ/wEmxUWlVAFw2IlbgW0=
 
 vue-disqus@^3.0.5:
   version "3.0.5"
@@ -8871,23 +8913,20 @@ vuepress-plugin-smooth-scroll@^0.0.9:
   dependencies:
     smoothscroll-polyfill "^0.4.4"
 
-vuepress-theme-reco@^1.6.10:
-  version "1.6.10"
-  resolved "https://registry.npmmirror.com/vuepress-theme-reco/download/vuepress-theme-reco-1.6.10.tgz#d55c04146c10b4ae2041d7a507a199b1a5904c10"
-  integrity sha512-6KqIOi96KTsZGqL6eTg/qAJZWUK1QEUOwC66caqSPD/z0FO5ry80KcWrYxgQwYZ0YjIHCWGR+XmHY134p466tA==
+vuepress-theme-reco@^1.5.7:
+  version "1.6.17"
+  resolved "https://r.cnpmjs.org/vuepress-theme-reco/-/vuepress-theme-reco-1.6.17.tgz#45c4f865b0f0e34d63fc4084e6fb4d8184046400"
+  integrity sha512-+5gj8IGriuXoGAXSgmsIkLzSrlwUyiGM2vBhZtKIsbfnvUj6iZ/GfcdI+JsI7b6mrJRvPxHNcssAWZjcEi2rcw==
   dependencies:
-    "@vue/composition-api" "1.0.0-beta.21"
-    "@vuepress-reco/core" "^1.6.9"
-    "@vuepress-reco/vuepress-plugin-back-to-top" "^1.6.0"
-    "@vuepress-reco/vuepress-plugin-comments" "^1.6.0"
-    "@vuepress-reco/vuepress-plugin-loading-page" "^1.6.0"
-    "@vuepress-reco/vuepress-plugin-pagation" "^1.6.0"
+    "@vuepress-reco/core" "^1.6.14-beta.0"
+    "@vuepress-reco/vuepress-plugin-back-to-top" "^1.6.13"
+    "@vuepress-reco/vuepress-plugin-comments" "^1.6.13"
+    "@vuepress-reco/vuepress-plugin-pagation" "^1.6.17"
     "@vuepress/plugin-blog" "1.9.2"
     "@vuepress/plugin-medium-zoom" "1.5.0"
     docsearch.js "2.6.3"
     md5 "2.2.1"
     vue-click-outside "1.1.0"
-    vue-demi "^0.5.3"
     vuepress-plugin-smooth-scroll "^0.0.9"
 
 vuepress@^1.9.5:
