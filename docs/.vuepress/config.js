@@ -43,7 +43,12 @@ module.exports = {
           { title: 'CSS常见面试题', path: '/css/CSS常见面试题' },
           { title: 'BFC', path: '/css/BFC' },
         ],
-      }
+      },
+      {
+        title: '常见面试题',
+        path: '/interview/list',
+        collapsable: false, // 不折叠
+      },
     ]
   },
   plugins: [
@@ -83,4 +88,4 @@ module.exports = {
       `
     ]
   ]
-}
+};
