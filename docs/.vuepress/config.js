@@ -49,6 +49,10 @@ module.exports = {
         path: '/interview/list',
         collapsable: false, // 不折叠
       },
+      {
+        title: 'TypeScript基础',
+        path:'TypeScript/TypeScript基础',
+      }
     ]
   },
   plugins: [
