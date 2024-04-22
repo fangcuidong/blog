@@ -14,7 +14,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text:'前端框架',
+        text: '前端框架',
         items: [
           { text: 'Vue', link: 'https://cn.vuejs.org/' },
           { text: 'React', link: 'https://react.dev/' },
@@ -27,7 +27,7 @@ module.exports = {
               { text: 'React Native', link: 'https://reactnative.dev/' },
               { text: 'Flutter', link: 'https://flutter.dev/' },
               { text: 'Electron', link: 'https://www.electronjs.org/zh/' },
-              
+
             ]
           },
           {
@@ -79,7 +79,11 @@ module.exports = {
       },
       {
         title: 'TypeScript基础',
-        path:'TypeScript/TypeScript基础',
+        path: 'TypeScript/TypeScript基础',
+      },
+      {
+        title: 'React',
+        path: 'react/React 官方教程.md',
       }
     ]
   },
