@@ -14,6 +14,34 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
+        text:'前端框架',
+        items: [
+          { text: 'Vue', link: 'https://cn.vuejs.org/' },
+          { text: 'React', link: 'https://react.dev/' },
+          { text: 'Angular', link: 'https://angular.io/' },
+          {
+            text: '跨端',
+            items: [
+              { text: 'uni-app', link: 'https://uniapp.dcloud.net.cn/' },
+              { text: 'taro', link: 'https://docs.taro.zone/docs/' },
+              { text: 'React Native', link: 'https://reactnative.dev/' },
+              { text: 'Flutter', link: 'https://flutter.dev/' },
+              { text: 'Electron', link: 'https://www.electronjs.org/zh/' },
+              
+            ]
+          },
+          {
+            text: '微前端',
+            items: [
+              { text: 'single-spa', link: 'https://single-spa.js.org/' },
+              { text: 'qiankun', link: 'https://qiankun.umijs.org/' },
+              { text: '无界', link: 'https://wujie-micro.github.io/doc/' },
+              { text: 'Micro-App', link: 'https://micro-zoe.github.io/micro-app/' },
+            ]
+          },
+        ]
+      },
+      {
         text: '导航',
         items: [
           { text: 'Github', link: 'https://github.com/fangcuidong' },
